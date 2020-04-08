@@ -1,0 +1,33 @@
+{
+  "name": "ejemplominimo1ea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordisalvador7/EjemploMinimo1EA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordisalvador7/EjemploMinimo1EA/issues"
+  },
+  "homepage": "https://github.com/jordisalvador7/EjemploMinimo1EA#readme",
+  "dependencies": {
+    "@angular/cdk": "^9.2.0",
+    "@angular/cli": "^9.1.0",
+    "@angular/material": "^9.2.0",
+    "angular": "^1.7.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node": "^13.12.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  }
+}
