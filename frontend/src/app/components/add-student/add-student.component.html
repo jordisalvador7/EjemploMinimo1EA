@@ -1,0 +1,12 @@
+<div class="dialog-container">
+    <p>Select students to enroll to the subject</p>
+    <mat-list>
+      <mat-list-item *ngFor="let student of students; let i = index">
+        <mat-checkbox [(ngModel)]="checked[i]">{{student.name}}</mat-checkbox>
+      </mat-list-item>
+    </mat-list>
+    <br>
+    <br>
+    <button mat-raised-button (click)="addStudents()" class="button-align-left">Add Students</button>
+    <button mat-raised-button (click)="closeDialog()" class="button-align-right" color="warn">Cancel</button>
+  </div>
